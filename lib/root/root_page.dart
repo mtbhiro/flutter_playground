@@ -28,7 +28,10 @@ class RootPage extends StatelessWidget {
       );
     }).toList();
     return Scaffold(
-        appBar: AppBar(title: const Text('Root Page')),
-        body: ListView(children: routeItems));
+      appBar: AppBar(
+        title: const Text('Root Page'),
+      ),
+      body: SafeArea(child: ListView(children: routeItems)),
+    );
   }
 }

@@ -36,6 +36,8 @@ dependencies:
   # responsive
   device_preview: 1.1.0
 
+  shared_preferences:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
