@@ -11,7 +11,7 @@ class RootPage extends StatelessWidget {
   const RootPage({Key? key}) : super(key: key);
 
   static const routes = [
-    DebugRouteData('Sample', 'sample'),
+    DebugRouteData('Simple List', 'simpleList'),
     DebugRouteData('Sample2', 'sample2'),
     DebugRouteData('Sample3', 'sample3'),
   ];

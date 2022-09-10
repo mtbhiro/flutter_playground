@@ -35,6 +35,9 @@ dependencies:
 
   # responsive
   device_preview: 1.1.0
+  responsive_framework: 0.2.0
+  flutter_screenutil: 5.5.4
+
 
   shared_preferences:
 
